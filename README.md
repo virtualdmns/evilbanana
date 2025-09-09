@@ -14,7 +14,6 @@ Evil Banana is a native macOS app for rapid, iterative image generation and edit
 
 ### ⚙️ Requirements
 - macOS 14+ (Apple Silicon)
-- Xcode 15+
 - Gemini API key
 
 ### 🍌 Download Evil Banana App
