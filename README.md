@@ -23,6 +23,9 @@ Evil Banana is a native macOS app for rapid, iterative image generation and edit
 
 ### 🛠️ Build Yourself
 1) Open Xcode project: `evilbanana/Evil Banana/Evil Banana.xcodeproj`.
+
+  then
+  
 2) Build & run the “Evil Banana” target (My Mac).
 3) Preferences → paste your Gemini API key → “Save to Config”.
 4) Drop up to 3 images into the Assets sidebar, write a prompt, hit Generate (⌘R).
