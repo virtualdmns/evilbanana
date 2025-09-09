@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A70A30292E6BF067008378C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A70A30122E6BF065008378C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A70A30192E6BF065008378C2;
+			remoteInfo = "Evil Banana";
+		};
+		A70A30332E6BF067008378C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A70A30122E6BF065008378C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A70A30192E6BF065008378C2;
+			remoteInfo = "Evil Banana";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A70A301A2E6BF065008378C2 /* Evil Banana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Evil Banana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70A30282E6BF067008378C2 /* Evil BananaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Evil BananaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70A30322E6BF067008378C2 /* Evil BananaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Evil BananaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A70A30582E6C1638008378C2 /* Exceptions for "Evil Banana" folder in "Evil Banana" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Evil-Banana-Info.plist",
+			);
+			target = A70A30192E6BF065008378C2 /* Evil Banana */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A70A301C2E6BF065008378C2 /* Evil Banana */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A70A30582E6C1638008378C2 /* Exceptions for "Evil Banana" folder in "Evil Banana" target */,
+			);
+			path = "Evil Banana";
+			sourceTree = "<group>";
+		};
+		A70A302B2E6BF067008378C2 /* Evil BananaTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Evil BananaTests";
+			sourceTree = "<group>";
+		};
+		A70A30352E6BF067008378C2 /* Evil BananaUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Evil BananaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A70A30172E6BF065008378C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70A30252E6BF067008378C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70A302F2E6BF067008378C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A70A30112E6BF065008378C2 = {
+			isa = PBXGroup;
+			children = (
+				A70A301C2E6BF065008378C2 /* Evil Banana */,
+				A70A302B2E6BF067008378C2 /* Evil BananaTests */,
+				A70A30352E6BF067008378C2 /* Evil BananaUITests */,
+				A70A301B2E6BF065008378C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A70A301B2E6BF065008378C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A70A301A2E6BF065008378C2 /* Evil Banana.app */,
+				A70A30282E6BF067008378C2 /* Evil BananaTests.xctest */,
+				A70A30322E6BF067008378C2 /* Evil BananaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A70A30192E6BF065008378C2 /* Evil Banana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70A303C2E6BF067008378C2 /* Build configuration list for PBXNativeTarget "Evil Banana" */;
+			buildPhases = (
+				A70A30162E6BF065008378C2 /* Sources */,
+				A70A30172E6BF065008378C2 /* Frameworks */,
+				A70A30182E6BF065008378C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A70A301C2E6BF065008378C2 /* Evil Banana */,
+			);
+			name = "Evil Banana";
+			packageProductDependencies = (
+			);
+			productName = "Evil Banana";
+			productReference = A70A301A2E6BF065008378C2 /* Evil Banana.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A70A30272E6BF067008378C2 /* Evil BananaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70A303F2E6BF067008378C2 /* Build configuration list for PBXNativeTarget "Evil BananaTests" */;
+			buildPhases = (
+				A70A30242E6BF067008378C2 /* Sources */,
+				A70A30252E6BF067008378C2 /* Frameworks */,
+				A70A30262E6BF067008378C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A70A302A2E6BF067008378C2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A70A302B2E6BF067008378C2 /* Evil BananaTests */,
+			);
+			name = "Evil BananaTests";
+			packageProductDependencies = (
+			);
+			productName = "Evil BananaTests";
+			productReference = A70A30282E6BF067008378C2 /* Evil BananaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A70A30312E6BF067008378C2 /* Evil BananaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A70A30422E6BF067008378C2 /* Build configuration list for PBXNativeTarget "Evil BananaUITests" */;
+			buildPhases = (
+				A70A302E2E6BF067008378C2 /* Sources */,
+				A70A302F2E6BF067008378C2 /* Frameworks */,
+				A70A30302E6BF067008378C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A70A30342E6BF067008378C2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A70A30352E6BF067008378C2 /* Evil BananaUITests */,
+			);
+			name = "Evil BananaUITests";
+			packageProductDependencies = (
+			);
+			productName = "Evil BananaUITests";
+			productReference = A70A30322E6BF067008378C2 /* Evil BananaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A70A30122E6BF065008378C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A70A30192E6BF065008378C2 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A70A30272E6BF067008378C2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A70A30192E6BF065008378C2;
+					};
+					A70A30312E6BF067008378C2 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A70A30192E6BF065008378C2;
+					};
+				};
+			};
+			buildConfigurationList = A70A30152E6BF065008378C2 /* Build configuration list for PBXProject "Evil Banana" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A70A30112E6BF065008378C2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A70A301B2E6BF065008378C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A70A30192E6BF065008378C2 /* Evil Banana */,
+				A70A30272E6BF067008378C2 /* Evil BananaTests */,
+				A70A30312E6BF067008378C2 /* Evil BananaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70A30182E6BF065008378C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70A30262E6BF067008378C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70A30302E6BF067008378C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70A30162E6BF065008378C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70A30242E6BF067008378C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A70A302E2E6BF067008378C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A70A302A2E6BF067008378C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A70A30192E6BF065008378C2 /* Evil Banana */;
+			targetProxy = A70A30292E6BF067008378C2 /* PBXContainerItemProxy */;
+		};
+		A70A30342E6BF067008378C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A70A30192E6BF065008378C2 /* Evil Banana */;
+			targetProxy = A70A30332E6BF067008378C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A70A303A2E6BF067008378C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A70A303B2E6BF067008378C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A70A303D2E6BF067008378C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Evil Banana/Evil_Banana.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Evil-Banana-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = virtualdmns;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "virtualdmns.Evil-Banana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A70A303E2E6BF067008378C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Evil Banana/Evil_Banana.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Evil-Banana-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.graphics-design";
+				INFOPLIST_KEY_NSHumanReadableCopyright = virtualdmns;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "virtualdmns.Evil-Banana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A70A30402E6BF067008378C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "virtualdmns.Evil-BananaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evil Banana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Evil Banana";
+			};
+			name = Debug;
+		};
+		A70A30412E6BF067008378C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "virtualdmns.Evil-BananaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Evil Banana.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Evil Banana";
+			};
+			name = Release;
+		};
+		A70A30432E6BF067008378C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "virtualdmns.Evil-BananaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Evil Banana";
+			};
+			name = Debug;
+		};
+		A70A30442E6BF067008378C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "virtualdmns.Evil-BananaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Evil Banana";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A70A30152E6BF065008378C2 /* Build configuration list for PBXProject "Evil Banana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70A303A2E6BF067008378C2 /* Debug */,
+				A70A303B2E6BF067008378C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70A303C2E6BF067008378C2 /* Build configuration list for PBXNativeTarget "Evil Banana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70A303D2E6BF067008378C2 /* Debug */,
+				A70A303E2E6BF067008378C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70A303F2E6BF067008378C2 /* Build configuration list for PBXNativeTarget "Evil BananaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70A30402E6BF067008378C2 /* Debug */,
+				A70A30412E6BF067008378C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A70A30422E6BF067008378C2 /* Build configuration list for PBXNativeTarget "Evil BananaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70A30432E6BF067008378C2 /* Debug */,
+				A70A30442E6BF067008378C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A70A30122E6BF065008378C2 /* Project object */;
+}
